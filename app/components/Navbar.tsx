@@ -14,7 +14,7 @@ export default function Navbar() {
   return(
     <nav className="invisible lg:visible fixed left-10 space-y-6 flex flex-col justify-center h-full">
       <button className="lg:hidden text-white" onClick={toggleNavbar}> hamburger </button>
-      <Link href="/">
+      <Link href="/" className="">
         Home
       </Link>
       <Link href="/">
