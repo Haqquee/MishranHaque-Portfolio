@@ -1,9 +1,21 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Handjet, JetBrains_Mono, Archivo, Jura, Saira } from "next/font/google";
+
 import Navbar from "./components/Navbar"
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const handjet = Handjet({subsets: ["latin"]})
+
+const jetbrains = JetBrains_Mono({subsets: ["latin"]})
+
+const archivo = Archivo({subsets: ["latin"]})
+
+const jura = Jura({subsets: ["latin"]})
+
+const saira= Saira({subsets: ["latin"]})
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,12 +28,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-    <body>
-      <Navbar />
-      <div className="container mx-auto px-24">
+    <html lang="en" className={jetbrains.className}>
+    <body className="min-h-screen relative">
+      <div className="absolute top-0 left-0 w-full h-full bg-texture bg-contain z-50 opacity-40 pointer-events-none"></div>
+      <div className="flex justify-center">
+        <Navbar />
+      </div>
+      <div className="container lg:mx-auto lg:px-24">
         {children}  
       </div>
+
+      <div className=""></div>
     </body>
   </html>
   );

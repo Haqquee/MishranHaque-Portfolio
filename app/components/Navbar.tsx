@@ -1,12 +1,31 @@
-export default function Intro() {
+"use client";
+
+import Link from "next/link"
+import { useState } from 'react';
+
+export default function Navbar() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  }
+
   return(
-    <div className="fixed top-0 left-0 h-screen">
-      <ul>
-        <li>Home</li>
-        <li>Projects</li>
-        <li>Experiences</li>
-        <li>Contact</li>
-      </ul>
-    </div>
+    <nav className="invisible lg:visible fixed left-10 space-y-6 flex flex-col justify-center h-full">
+      <button className="lg:hidden text-white" onClick={toggleNavbar}> hamburger </button>
+      <Link href="/">
+        Home
+      </Link>
+      <Link href="/">
+        Projects
+      </Link>
+      <Link href="/">
+        Experiences
+      </Link>
+      <Link href="/">
+        Contact
+      </Link>
+    </nav>
     )
 }

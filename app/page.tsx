@@ -3,21 +3,30 @@ import Intro from "./components/Intro"
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex justify-center items-center">
-      <div className="w-1/3 text-right">
-        <h1 className="">
+    <main className="min-h-screen flex justify-center flex-col lg:flex-row mt-48">
+      <div className="lg:w-1/3 lg:text-right px-4">
+        <h1 className="pb-2">
            Mishran Haque
         </h1>
-        <h2>
+        <h2 className="pb-2">
            Aerospace Engineering Graduate with a passion for Software Development
         </h2>
-        <h3>
+        <h3 className="pb-2 lg:pb-0">
             Take a look through my various works.
         </h3>
       </div>
 
-      <div className="w-2/3 text-center">
-        <p>aklsdjaosdjiasodahqokldjnaskljdnakldjklasjdiojasoidjasdjiasdjlkasjdklasjlkdjaskldjkl</p>
+      <div className="lg:w-2/3 text-left px-4">
+        <p>
+        Hello! I am Mishran, an Aerospace Engineering Graduate from Toronto Metropolitan University (Formerly Ryerson University).
+
+        Space and everything extraterrestrial was fascinating to me from early childhood and throughout my High School years. This interest soon evolved into the unavoidable career choice towards Science & Engineering. My passion for space travel and state-of-the-art vehicles eventually led me to join the Aerospace Engineering Program at Ryerson University. Over my four years of University, I got to take various courses that strengthened my knowledge of aerospace applications. I got the opportunity to work with Design teams such as Ryerson Rocketry Club and Ryerson Propulsion Group and experience the process behind designing and building a supersonic rocket. In 2022, I spent 3 Co-op terms with the Canadian Space Agency where I held Project Management and Mechanical Engineering Positions within three different project teams.
+
+        During my years at University, I developed a passion for Software Engineering and Artificial Intelligence. Writing code and developing meaningful software became a hobby for me. This led me to obtain a Minor in Computer Science where I took courses and completed projects mainly related to Low-level Programming and Machine Learning. These experiences and coursework allowed me to develop skills in programming using Python, C, and C++, as well as Machine Learning Frameworks and Libraries.
+
+        I am always open to new professional connections and meaningful conversations!
+
+        </p>
       </div>      
     </main>
   );
