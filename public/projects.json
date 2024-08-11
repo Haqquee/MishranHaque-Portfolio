@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "NVIDIA GENAI Developer Contest (Received Honorable Mention)",
+    "date": "August 2024",
+    "description": "For NVIDIA's Generative AI developer contest, I created a project called Persona, which placed me among the top 10 projects for the contest. Peronsa integrates Large-Language-Models into Unreal Engine, to power dynamic and immersive dialogues for characters in video games.",
+    "image": "/path/to/image1.jpg",
+    "links": [
+      { "name": "GitHub", "url": "https://github.com" },
+      { "name": "Live Demo", "url": "https://project1.com" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Project 2",
+    "date": "August 2024",
+    "description": "This is a description of Project 2. It does even more amazing things.",
+    "image": "/path/to/image2.jpg",
+    "links": [
+      { "name": "GitHub", "url": "https://github.com/project2" },
+      { "name": "Live Demo", "url": "https://project2.com" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Project 3",
+    "date": "August 2024",
+    "description": "This is a description of Project 3. It does even more amazing things.",
+    "image": "/path/to/image2.jpg",
+    "links": [
+      { "name": "GitHub", "url": "https://github.com/project2" },
+      { "name": "Live Demo", "url": "https://project2.com" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Project 2",
+    "date": "August 2024",
+    "description": "This is a description of Project 2. It does even more amazing things.",
+    "image": "/path/to/image2.jpg",
+    "links": [
+      { "name": "GitHub", "url": "https://github.com/project2" },
+      { "name": "Live Demo", "url": "https://project2.com" }
+    ]
+  }
+]

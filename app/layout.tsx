@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={jetbrains.className}>
     <body className="min-h-screen relative">
-      <div className="absolute top-0 left-0 w-full h-full bg-texture bg-contain z-50 opacity-40 pointer-events-none"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-texture bg-contain z-50 opacity-40 pointer-events-none"></div>     
       <div className="flex justify-center">
         <Navbar />
       </div>
