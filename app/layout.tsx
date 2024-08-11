@@ -29,17 +29,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={jetbrains.className}>
-    <body className="min-h-screen relative">
-      <div className="absolute top-0 left-0 w-full h-full bg-texture bg-contain z-50 opacity-40 pointer-events-none"></div>     
-      <div className="flex justify-center">
-        <Navbar />
-      </div>
-      <div className="container lg:mx-auto lg:px-24">
-        {children}  
-      </div>
-
-      <div className=""></div>
-    </body>
-  </html>
+      <body className="min-h-screen relative">
+        {children}
+      </body>
+    </html>
   );
 }
