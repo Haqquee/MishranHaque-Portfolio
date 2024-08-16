@@ -35,7 +35,7 @@ export default function Home() {
     
   
     <main>
-      <div className="absolute top-0 left-0 w-full h-full bg-texture bg-contain z-50 opacity-40 pointer-events-none"></div>     
+      <div className="absolute top-0 left-0 w-full h-full bg-texture bg-contain z-50 opacity-30 pointer-events-none"></div>     
       <div className="flex justify-center">
         <Navbar onNavClick={handleNavClick}/>
       </div>

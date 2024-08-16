@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-interface Experience {
+interface Experience {      
   id: number;
   title: string;
   date: string;
@@ -21,7 +21,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <main className="min-h-screen flex justify-center w-screen flex-col mx-auto lg:flex-row lg:w-full mt-48">
+    <main className="min-h-screen flex justify-center w-screen flex-col mx-auto lg:flex-row lg:w-full pt-48">
           <div className="text-center w-full lg:w-1/3 lg:text-right px-4">
             <h1 className="pb-2">
               Experiences
@@ -42,8 +42,8 @@ export default function Projects() {
                   <a href={link.url} className="underline hover:text-light">{link.name}</a>
                 ))}
                 </div>
-                <div className="w-2/3">
-                  <img src="" alt="" className="w-full h-full object-cover"/>
+                <div className="w-2/3 border-2 border-secondary">
+                  <img src={experience.image} alt="" className="w-full h-full object-cover"/>
                 </div>
               </div>
             </div>

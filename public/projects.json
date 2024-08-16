@@ -4,21 +4,23 @@
     "title": "NVIDIA GENAI Developer Contest (Received Honorable Mention)",
     "date": "August 2024",
     "description": "For NVIDIA's Generative AI developer contest, I created a project called Persona, which placed me among the top 10 projects for the contest. Peronsa integrates Large-Language-Models into Unreal Engine, to power dynamic and immersive dialogues for characters in video games.",
-    "image": "/path/to/image1.jpg",
+    "image": "./images/nvidia-genai.jpg",
     "links": [
-      { "name": "GitHub", "url": "https://github.com" },
-      { "name": "Live Demo", "url": "https://project1.com" }
+      { "name": "GitHub", "url": "https://github.com/Haqquee/Persona-UnrealEngine" },
+      { "name": "Submission/Demo Video", "url": "https://www.youtube.com/watch?v=mlzYu-rhCd0&feature=youtu.be" },
+      { "name": "List of Winners", "url": "https://www.nvidia.com/en-us/ai-data-science/generative-ai/developer-contest-with-langchain/" }
+
     ]
   },
   {
     "id": 2,
-    "title": "Project 2",
-    "date": "August 2024",
-    "description": "This is a description of Project 2. It does even more amazing things.",
-    "image": "/path/to/image2.jpg",
+    "title": "Unreal Engine Game Development",
+    "date": "January 2024 - Present",
+    "description": "I have always dreamt of developing video-games, with full creative control over the entire project. In the beginning of 2024, I started to learn game development as a hobby. I started with Unity, and eventually made my way to Unreal Engine, while working on various projects with the engines to build up my skills. I am picking up skills in everything from game mechanics and level/environement design, to sound design and writing. I am currently in the early stages of developing a large game project (more info to come).",
+    "image": "./images/unreal-engine.jpg",
     "links": [
-      { "name": "GitHub", "url": "https://github.com/project2" },
-      { "name": "Live Demo", "url": "https://project2.com" }
+      { "name": "GitHub", "url": "https://github.com/Haqquee" }
+  
     ]
   },
   {

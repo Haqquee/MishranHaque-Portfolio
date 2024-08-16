@@ -34,17 +34,17 @@ export default function Navbar({ onNavClick }: { onNavClick: (section: string) =
 
       <nav className={`fixed top-0 left-10 space-y-6 flex flex-col justify-center h-full transition-transform transform z-50 ${isOpen ? 'translate-x-0 bg-primary bg-opacity-90 px-10' : '-translate-x-[150%]'} lg:translate-x-0 lg:px-0 lg:space-y-4 lg:flex lg:flex-col lg:justify-center lg:bg-transparent`}>
 
-      <Link href="/" className="transform transition duration-100 hover:text-light hover:scale-110" onClick={() => handleLinkClick('home')}>    
-        Home
+      <Link href="/" className="transform transition duration-100 hover:text-light" onClick={() => handleLinkClick('home')}>    
+        | Home
       </Link>
-      <Link href="/" className="transform transition duration-100 hover:text-light hover:scale-110" onClick={() => handleLinkClick('projects')}>  
-        Projects
+      <Link href="/" className="transform transition duration-100 hover:text-light" onClick={() => handleLinkClick('projects')}>  
+        | Projects
       </Link>
-      <Link href="/" className="transform transition duration-100 hover:text-light hover:scale-110" onClick={() => handleLinkClick('experiences')}>  
-        Experiences
+      <Link href="/" className="transform transition duration-100 hover:text-light" onClick={() => handleLinkClick('experiences')}>  
+        | Experiences
       </Link>
-      <Link href="/" className="transform transition duration-100 hover:text-light hover:scale-110" onClick={() => handleLinkClick('contact')}>  
-        Contact
+      <Link href="/" className="transform transition duration-100 hover:text-light" onClick={() => handleLinkClick('contact')}>  
+        | Contact
       </Link>
     </nav>
     </div>

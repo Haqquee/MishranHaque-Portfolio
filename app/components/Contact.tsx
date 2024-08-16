@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 export default function Contact() {
   return(
-        <main className="min-h-screen flex justify-center w-screen flex-col mx-auto lg:flex-row lg:w-full mt-48">
+        <main className="min-h-screen flex justify-center w-screen flex-col mx-auto lg:flex-row lg:w-full pt-48">
             <div className="text-center w-full lg:w-1/3 lg:text-right px-4">
                 <h1 className="pb-2">
                 Contact
@@ -26,7 +26,7 @@ export default function Contact() {
               </a>
 
             <a 
-              href="https://github.com/yourprofile" 
+              href="https://github.com/Haqquee" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center text-secondary hover:text-light transition duration-200">

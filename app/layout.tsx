@@ -29,8 +29,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={jetbrains.className}>
-      <body className="min-h-screen relative">
+      <body className="min-h-screen relative ">
         {children}
+        <footer className="text-center py-4 text-sm text-gray-500">
+          &copy; By Mishran Haque, 2024
+        </footer>
       </body>
     </html>
   );
