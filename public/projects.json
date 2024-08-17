@@ -19,30 +19,9 @@
     "description": "I have always dreamt of developing video-games, with full creative control over the entire project. In the beginning of 2024, I started to learn game development as a hobby. I started with Unity, and eventually made my way to Unreal Engine, while working on various projects with the engines to build up my skills. I am picking up skills in everything from game mechanics and level/environement design, to sound design and writing. I am currently in the early stages of developing a large game project (more info to come).",
     "image": "./images/unreal-engine.jpg",
     "links": [
-      { "name": "GitHub", "url": "https://github.com/Haqquee" }
+      { "name": "GitHub", "url": "https://github.com/Haqquee/FPS-Mechanics-UnrealEngine?tab=readme-ov-file" },
+      { "name": "Videos", "url": "https://www.youtube.com/watch?v=sYh329YvWUA&list=PLATKA12HJuo72EW57XFp7ftF2AAM3RUrq&pp=gAQBiAQB" }
   
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Project 3",
-    "date": "August 2024",
-    "description": "This is a description of Project 3. It does even more amazing things.",
-    "image": "/path/to/image2.jpg",
-    "links": [
-      { "name": "GitHub", "url": "https://github.com/project2" },
-      { "name": "Live Demo", "url": "https://project2.com" }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Project 2",
-    "date": "August 2024",
-    "description": "This is a description of Project 2. It does even more amazing things.",
-    "image": "/path/to/image2.jpg",
-    "links": [
-      { "name": "GitHub", "url": "https://github.com/project2" },
-      { "name": "Live Demo", "url": "https://project2.com" }
     ]
   }
 ]

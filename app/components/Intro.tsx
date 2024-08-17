@@ -11,7 +11,7 @@ export default function Intro() {
       }, []);
 
   return(
-        <main className="min-h-screen flex justify-center w-screen flex-col mx-auto lg:flex-row lg:w-full pt-48">
+        <main className="min-h-screen flex justify-center w-screen flex-col mx-auto lg:flex-row lg:w-full items-center">
             <div className="text-center w-full lg:w-1/3 lg:text-right px-4">
                 <h1 className="pb-2">
                 {introContent.name}

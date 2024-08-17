@@ -27,7 +27,7 @@ export default function Projects() {
               Projects
             </h1>
             <h2 className="pb-2">
-              Overview of various projects I am working on, or have done in the past.
+              A showcase of various projects that I am working on, or have done in the past.
             </h2>
           </div>      
           <div className="py-10 text-left px-4 lg:w-2/3 lg:py-0 space-y-4 ">  
