@@ -39,7 +39,7 @@ export default function Home() {
       <div className="flex justify-center">
         <Navbar onNavClick={handleNavClick}/>
       </div>
-      <div className="container lg:mx-auto lg:px-24">
+      <div className="container xl:mx-auto xl:px-10 ">
         {renderContent()}
         
       </div>

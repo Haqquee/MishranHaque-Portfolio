@@ -11,20 +11,21 @@ export default function Intro() {
       }, []);
 
   return(
-        <main className="min-h-screen flex justify-center w-screen flex-col mx-auto lg:flex-row lg:w-full items-center">
-            <div className="text-center w-full lg:w-1/3 lg:text-right px-4">
+        <main className="min-h-screen flex justify-center w-screen flex-col mx-auto xl:flex-row xl:w-full pt-48">
+            
+            <div className="text-center w-full xl:w-1/3 xl:text-right">
                 <h1 className="pb-2">
                 {introContent.name}
                 </h1>
                 <h2 className="pb-2">
                 {introContent.title}
                 </h2>
-                <h3 className="pb-2 lg:pb-0">
+                <h3 className="pb-2 xl:pb-0">
                 {introContent.description}     
                 </h3>
             </div>
 
-            <div className="py-10 text-left px-4 lg:w-2/3 lg:py-0 space-y-4 ">  
+            <div className="py-10 text-left px-4 xl:w-2/3 xl:py-0 space-y-4 ">  
                 <p>
                 {introContent.introduction}
                 </p>

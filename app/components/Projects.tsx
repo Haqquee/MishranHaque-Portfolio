@@ -21,8 +21,8 @@ export default function Projects() {
   }, []);
 
   return (
-    <main className="min-h-screen flex justify-center w-screen flex-col mx-auto lg:flex-row lg:w-full pt-48">
-          <div className="text-center w-full lg:w-1/3 lg:text-right px-4">
+    <main className="min-h-screen flex justify-center w-screen flex-col mx-auto xl:flex-row xl:w-full pt-48">
+          <div className="text-center w-full xl:w-1/3 xl:text-right px-4">
             <h1 className="pb-2">
               Projects
             </h1>
@@ -30,7 +30,7 @@ export default function Projects() {
               A showcase of various projects that I am working on, or have done in the past.
             </h2>
           </div>      
-          <div className="py-10 text-left px-4 lg:w-2/3 lg:py-0 space-y-4 ">  
+          <div className="py-10 text-left px-4 xl:w-2/3 xl:py-0 space-y-4 pt-20 ">  
           {projects.map((project) => (
             <div key={project.id}>
               <h2>{project.title}</h2>

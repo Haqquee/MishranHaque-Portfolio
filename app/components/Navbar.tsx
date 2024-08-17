@@ -26,13 +26,13 @@ export default function Navbar({ onNavClick }: { onNavClick: (section: string) =
 
     <div>
       <button 
-        className="lg:hidden text-primary fixed top-4 left-4 p-2 m-2 scale-150 bg-light bg-opacity-75 rounded focus:outline-none z-50"
+        className="xl:hidden text-primary fixed top-4 left-4 p-2 m-2 scale-150 bg-light bg-opacity-75 rounded focus:outline-none z-50"
         onClick={toggleNavbar}
       >
         ☰
       </button>
 
-      <nav className={`fixed top-0 left-10 space-y-6 flex flex-col justify-center h-full transition-transform transform z-50 ${isOpen ? 'translate-x-0 bg-primary bg-opacity-90 px-10' : '-translate-x-[150%]'} lg:translate-x-0 lg:px-0 lg:space-y-4 lg:flex lg:flex-col lg:justify-center lg:bg-transparent`}>
+      <nav className={`fixed top-0 left-10 space-y-6 flex flex-col justify-center h-full transition-transform transform z-50 ${isOpen ? 'translate-x-0 bg-primary bg-opacity-90 px-10' : '-translate-x-[150%]'} xl:translate-x-0 xl:px-0 xl:space-y-4 xl:flex xl:flex-col xl:justify-center xl:bg-transparent`}>
 
       <Link href="/" className="transform transition duration-100 hover:text-light" onClick={() => handleLinkClick('home')}>    
         | Home
