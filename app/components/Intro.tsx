@@ -25,7 +25,7 @@ export default function Intro() {
                 </h3>
             </div>
 
-            <div className="py-10 text-left px-8 xl:w-2/3 xl:py-0 space-y-4">  
+            <div className="py-10 text-left px-8 xl:w-2/3 xl:py-0 space-y-4">           
                 <p>
                 {introContent.introduction}
                 </p>
