@@ -39,7 +39,7 @@ export default function Projects() {
               <div className="flex flex-row py-5 h-72">
                 <div className="flex flex-col text-right w-1/3 px-4">
                 {experience.links.map((link) => (
-                  <a href={link.url} className="underline hover:text-light">{link.name}</a>
+                  <a href={link.url} className="underline hover:text-light" target="_blank">{link.name}</a>
                 ))}
                 </div>
                 <div className="w-2/3 border-2 border-secondary">

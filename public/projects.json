@@ -1,14 +1,16 @@
 [
   {
     "id": 1,
-    "title": "NVIDIA GENAI Developer Contest (Received Honorable Mention)",
+    "title": "Persona - NVIDIA Generative AI Developer Contest",
     "date": "August 2024",
     "description": "For NVIDIA's Generative AI developer contest, I created a project called Persona, which placed me among the top 10 projects for the contest. Peronsa integrates Large-Language-Models into Unreal Engine, to power dynamic and immersive dialogues for characters in video games.",
     "image": "./images/nvidia-genai.jpg",
     "links": [
-      { "name": "GitHub", "url": "https://github.com/Haqquee/Persona-UnrealEngine" },
-      { "name": "Submission/Demo Video", "url": "https://www.youtube.com/watch?v=mlzYu-rhCd0&feature=youtu.be" },
+      { "name": "Project Link", "url": "https://github.com/Haqquee/Persona-UnrealEngine" },
+      { "name": "Submission Video", "url": "https://www.youtube.com/watch?v=mlzYu-rhCd0&feature=youtu.be" },
+      { "name": "Certificate of Accomplishment", "url": "./documents/mh_nvidia_certificate.pdf" },
       { "name": "List of Winners", "url": "https://www.nvidia.com/en-us/ai-data-science/generative-ai/developer-contest-with-langchain/" }
+      
 
     ]
   },
@@ -23,5 +25,17 @@
       { "name": "Videos", "url": "https://www.youtube.com/watch?v=sYh329YvWUA&list=PLATKA12HJuo72EW57XFp7ftF2AAM3RUrq&pp=gAQBiAQB" }
   
     ]
+  },
+  {
+    "id": 3,
+    "title": "Predictive Maintenance of Turbofan Engines Using Machine Learning Methodologies",
+    "date": "April 2023",
+    "description": "For my Machine Learning course in University, I worked on a term project where I used Turbofan engine data provided by NASA, along with Machine Learning Libraries in Python (Tensorflow, Scikit Learn, etc), to create a Machine Learning model that can predict remaining useful life of turbofan engines, for the purpose of predictive maintenance. The prediction was done through the use of both Regression and Neural Network models. More specifically, Random Forest Regressor and LSTM models were used, and their accuracies were compared. It was determined that the LSTM model provides a better prediction with a lower RMSE compared to the regression model. This analysis helped understand how to use Machine Learning techniques to tackle the problem of predictive maintenance."         ,
+    "image": "./images/rul_image.png",
+    "links": [
+      { "name": "Final Report", "url": "./documents/RUL_Report.pdf" }
+  
+    ]
   }
+
 ]

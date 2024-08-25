@@ -3,9 +3,32 @@
     "id": 1,
     "title": "Internship at the Canadian Space Agency (CSA)",
     "date": "January - December, 2022",
-    "description": "I got the amazing opportunity to join the Canadian Space Agency in January of 2022. I held multiple internship positions throughout my 12 months at the Agency which included project management positions for three different space projects as well as a mechanical engineering position.",
+    "description": "I got the amazing opportunity to join the Canadian Space Agency in January of 2022. I held multiple internship positions throughout my 12 months at the Agency which included project management positions for three different space projects as well as a mechanical engineering position. Projects that I have worked on at the Agency include two projects from NASA's Lunar Gateway Program, one of which was the Canadarm3, Canada's largest space project to date. I also contributed to a Lunar Rover Project, which was a part of NASA's Commercial Lunar Payload Services (CLPS) initiative. ",
     "image": "./images/csa-hq.jpg",
-    "links": [
+    "links": [ { "name": "Certificate of Recognition", "url": "./documents/mh_csa_certificate.pdf" }
+
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Aerospace Engineering at Toronto Metropolitan University (Formerly Ryerson University)",
+    "date": "September 2018 - May 2023",
+    "description": "",
+    "image": "./images/grad_ceremony.JPG",
+    "links": [ 
+      { "name": "Degree Certificate", "url": "./documents/mh_graduation_certificate.pdf" },
+      { "name": "Dean's List", "url": "./documents/mh_deanslist_letter.pdf" }
+      
+
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Vice President of Education at Aerospace Course Union (Toronto Metropolitan University)",
+    "date": "2020 - 2021",
+    "description": "During the academic year of 2020-2021, I was a part of the Aerospace Course Union at TMU. This is a student group devoted to serving the Aerospace Engineering students of the university. As a group, ACU hosts various social and academic events throughout the year and promotes Aerospace Engineering at Ryerson. I joined in as the Vice President of Education for the year. In this position, I was responsible for hosting academic events throughout the year. This included various workshops, tutorials, exam-preps, and other related events. Along with this, I was actively interacting with students in the program to help them with their concerns, mainly in terms of academics.",
+    "image": "./images/aerocu-logo.png",
+    "links": [ { "name": "Certificate of Recognition", "url": "./documents/mh_acu_certificate.pdf" }
 
     ]
   }
